@@ -1,0 +1,7 @@
+bin
+.DS_Store
+Logs
+Library
+obj
+UserSettings
+.vs
