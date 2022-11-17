@@ -307,7 +307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -364,7 +364,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 10000
   field of view: 90
   orthographic: 0
   orthographic size: 5
@@ -408,6 +408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1300221853}
   - component: {fileID: 1300221854}
+  - component: {fileID: 1300221855}
   m_Layer: 0
   m_Name: Tracking Target
   m_TagString: Untagged
@@ -444,3 +445,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maximumSpeed: 100
+--- !u!114 &1300221855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300221852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af904fb30f00843ceb49c159e2adf0b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}

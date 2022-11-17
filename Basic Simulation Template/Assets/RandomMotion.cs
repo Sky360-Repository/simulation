@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RandomMotion : MonoBehaviour
 {
-    public float maximumSpeed = 100; // meters per second
+    public float maximumSpeed = 100;
 
     // Gets a random normalized direction vector
     Vector3 RandomDirection()
