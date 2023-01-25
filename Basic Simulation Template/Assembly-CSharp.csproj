@@ -58,6 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets/ConstantVelocity.cs" />
     <Compile Include="Assets/RandomMotion.cs" />
+    <Compile Include="Assets/CircularMotion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Real Stars Skybox/Demo Scene/Documentation.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
